@@ -1,0 +1,19 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f4c8f" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#33b074" stop-opacity="0.35" />
+    </linearGradient>
+    <pattern id="p1" patternUnits="userSpaceOnUse" width="120" height="120">
+      <path d="M0 60 Q30 0 60 60 T120 60" fill="none" stroke="url(#g1)" stroke-width="2" stroke-linecap="round" />
+      <path d="M0 90 Q30 30 60 90 T120 90" fill="none" stroke="url(#g1)" stroke-width="2" stroke-linecap="round" />
+    </pattern>
+  </defs>
+  <rect width="600" height="600" fill="#10253f" />
+  <rect width="600" height="600" fill="url(#p1)" opacity="0.55" />
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2">
+    <circle cx="300" cy="120" r="80" />
+    <circle cx="520" cy="340" r="120" />
+    <circle cx="140" cy="420" r="100" />
+  </g>
+</svg>
