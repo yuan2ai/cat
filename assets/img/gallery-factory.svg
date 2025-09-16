@@ -1,0 +1,24 @@
+<svg width="800" height="520" viewBox="0 0 800 520" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="factoryBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10253f" />
+      <stop offset="100%" stop-color="#225c9e" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#factoryBg)" />
+  <g fill="#33b074" opacity="0.7">
+    <rect x="60" y="280" width="160" height="160" rx="18" />
+    <rect x="240" y="220" width="200" height="220" rx="18" />
+    <rect x="460" y="180" width="220" height="260" rx="18" />
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="6" stroke-opacity="0.55">
+    <path d="M60 320 H220" />
+    <path d="M240 260 H440" />
+    <path d="M460 220 H680" />
+  </g>
+  <g fill="#f29f3d" opacity="0.8">
+    <circle cx="160" cy="260" r="28" />
+    <circle cx="340" cy="200" r="24" />
+    <circle cx="560" cy="150" r="26" />
+  </g>
+</svg>
